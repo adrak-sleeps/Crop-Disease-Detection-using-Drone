@@ -19,13 +19,15 @@ On blurring the dataset, ResNet-9 gave a validation accuracy of 53.5%.
 
 To modify this accuracy, we tried to deblur the images using the SelfDeblur model. ResNet-9 gave a validation accuracy of 64.24% after deblurring.
 
-## How to run the CNN/VGG-19/ResNet file?
-
-1. Open the "Crop Disease Detection using __ " file in Google Colab.
-2. Run all cells.
-3. On prompt to upload files, upload the kaggle.json file provided above.
-
 We tried to run our model on PlantDoc dataset and it did not perform well.
 We tried to synthesise some realistic images using a GAN and got a validation accuracy of 25%. 
 
 We aim to further improve these accuracies.
+
+## How to run the CNN/VGG-19/ResNet file?
+
+1. Download and open the "Crop Disease Detection using __ " file in Google Colab.
+2. Run all cells.
+3. On prompt to upload files, upload the kaggle.json file provided above.
+4. Rest of the cells will run sequentially and provide output in approx 30-45 mins.
+
